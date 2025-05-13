@@ -1,0 +1,5374 @@
+/* Universal style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Main section */
+.mainsection {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/img01.avif);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Navigation bar Start*/
+.navbar {
+    background-color: #f1ecea;
+    display: flex;
+    height: 72px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+/* Left section in navbar */
+.navbar .left ul {
+    display: flex;
+    gap: 30px;
+}
+
+.left1 {
+    display: none;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3E2B24;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* center section in navbar */
+.navbar .center span {
+    font-size: 20px;
+    color: #3E2B24;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* right section in navbar */
+.navbar .right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.navbar .Inquire {
+    border: 1px solid #C4B693;
+    background-color: #3E2B24;
+    color: #C4B693;
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 120px;
+    height: 40px;
+    letter-spacing: 2px;
+}
+
+.navbar .Inquire:hover {
+    background-color: #C4B693;
+    color: #3E2B24;
+    border: 1px solid #3E2B24;
+    transition: 0.7s;
+}
+
+/* navbar's icons */
+.navbar i {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Navigation bar end */
+
+/* Main page */
+
+/* massage section */
+.mainpage .massage {
+    position: absolute;
+    left: 1420px;
+    top: 660px;
+    width: 64px;
+    height: 64px;
+    background-color: rgb(100, 89, 65);
+    color: rgb(241, 236, 234);
+    font-size: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+    text-decoration: none;
+}
+
+.mainpage .massage a {
+    text-decoration: none;
+    color: rgb(241, 236, 234);
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: center;
+    padding-left: 180px;
+    margin-top: 250px;
+}
+
+/* uppersection */
+.mainpage .upper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainpage .para1 {
+    color: #3E2B24;
+    font-size: 38px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: italic;
+}
+
+.mainpage .para2 {
+    color: #3E2B24;
+    font-size: 80px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 550;
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+/* lowersection */
+.mainpage .lower {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 160px;
+}
+
+.mainpage .para3 {
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.mainpage .seevideo {
+    border: 1px solid #C4B693;
+    background-color: #3E2B24;
+    color: #C4B693;
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 133px;
+    height: 40px;
+    letter-spacing: 1px;
+}
+
+/* main section end */
+
+/* infomation section */
+.infosection {
+    height: 1100px;
+    width: 100%;
+    background-color: #f1ecea;
+}
+
+/* upper section */
+.infosection .upper {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.infosection .upper .para1 {
+    color: #3E2B24;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-right: 718px;
+}
+
+.infosection .upper .para2 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 930px;
+    height: 350px;
+}
+
+/* lower section */
+.infosection .lower {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 300px;
+}
+
+.infosection .infoimg01 {
+    height: 390px;
+    width: 290px;
+}
+
+.infosection .infoimg02 {
+    height: 251px;
+    width: 209px;
+}
+
+/* card section 01 */
+.cardsection01 {
+    height: 1340px;
+    background-color: #C4B693;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+/* top */
+.cardsection01 .top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+
+.cardsection01 .top .para1 {
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cardsection01 .top .para2 {
+    color: #3E2B24;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 876px;
+    height: 111px;
+    padding-top: 20px;
+}
+
+/* middle */
+.cardsection01 .middle {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsection01 .middle img {
+    height: 720px;
+    width: 480px;
+}
+
+/* bottom */
+.cardsection01 .bottom {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsection01 .bottom .para1 {
+    color: #3E2B24;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cardsection01 .bottom .para2 {
+    width: 269px;
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.cardsection01 .bottom .para3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 231px;
+    width: 216px;
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cardsection01 .bottom .para3 i {
+    height: 20px;
+    width: 20px;
+    padding-right: 20px;
+}
+
+.cardsection01 .card1button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardsection01 .card1button .checkavai {
+    width: 176px;
+    height: 40px;
+    background-color: #3E2B24;
+    color: #C4B693;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid #3E2B24;
+}
+
+.cardsection01 .card1button .viewfloor {
+    width: 176px;
+    height: 40px;
+    background-color: #C4B693;
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid #3E2B24;
+}
+
+.cardsection01 .card1button .checkavai:hover {
+    background-color: #C4B693;
+    color: #3E2B24;
+    transition: 0.8s;
+}
+
+.cardsection01 .card1button .viewfloor:hover {
+    background-color: #3E2B24;
+    color: #C4B693;
+    transition: 0.8s;
+}
+
+/* card section 01 end */
+
+/* card section 02 */
+.cardsection02 {
+    height: 1080px;
+    background-color: #645941;
+    display: flex;
+    flex-direction: column;
+}
+
+/* top section */
+.cardsection02 .top {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.cardsection02 .top img {
+    height: 720px;
+    width: 480px;
+}
+
+/* bottom section */
+.cardsection02 .bottom {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cardsection02 .bottom .para1 {
+    color: #F1ECEA;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cardsection02 .bottom .para2 {
+    width: 269px;
+    color: #F1ECEA;
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.cardsection02 .bottom .para3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 231px;
+    width: 216px;
+    color: #F1ECEA;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cardsection02 .bottom .para3 i {
+    height: 20px;
+    width: 20px;
+    padding-right: 20px;
+}
+
+.cardsection02 .card2button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardsection02 .card2button .checkavai {
+    width: 176px;
+    height: 40px;
+    background-color: #F1ECEA;
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid #3E2B24;
+}
+
+.cardsection02 .card2button .viewfloor {
+    width: 176px;
+    height: 40px;
+    background-color: #C4B693;
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid #3E2B24;
+}
+
+.cardsection02 .card2button .checkavai:hover {
+    background-color: #645941;
+    color: #F1ECEA;
+    transition: 0.8s;
+}
+
+.cardsection02 .card2button .viewfloor:hover {
+    background-color: #3E2B24;
+    color: #C4B693;
+    transition: 0.8s;
+}
+
+/* card section 02 end */
+
+/* card section 03 */
+.cardsection03 {
+    height: 1080px;
+    background-color: #3E2B24;
+    display: flex;
+    flex-direction: column;
+}
+
+/* top section */
+.cardsection03 .top {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.cardsection03 .top img {
+    height: 720px;
+    width: 480px;
+}
+
+/* bottom section */
+.cardsection03 .bottom {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cardsection03 .bottom .para1 {
+    color: #C4B693;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cardsection03 .bottom .para2 {
+    width: 269px;
+    color: #C4B693;
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.cardsection03 .bottom .para3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 231px;
+    width: 216px;
+    color: #C4B693;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cardsection03 .bottom .para3 i {
+    height: 20px;
+    width: 20px;
+    padding-right: 20px;
+}
+
+.cardsection03 .card3button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardsection03 .card3button .checkavai {
+    width: 176px;
+    height: 40px;
+    background-color: #C4B693;
+    color: #3E2B24;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid #C4B693;
+}
+
+.cardsection03 .card3button .viewfloor {
+    width: 176px;
+    height: 40px;
+    background-color: #3E2B24;
+    color: #C4B693;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid #C4B693;
+}
+
+.cardsection03 .card3button .checkavai:hover {
+    background-color: #3E2B24;
+    color: #C4B693;
+    transition: 0.8s;
+}
+
+.cardsection03 .card3button .viewfloor:hover {
+    background-color: #C4B693;
+    color: #3E2B24;
+    transition: 0.8s;
+}
+
+/* card section 3 end */
+
+/* tag line section */
+.taglinesection {
+    height: 980px;
+    width: 100%;
+    background-color: #F1ECEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px 150px;
+}
+
+.taglinesection .img01 {
+    height: 220px;
+    width: 180px;
+    margin-right: 640px;
+}
+
+.taglinesection .para1 {
+    font-size: 45px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+    width: 800px;
+    height: 171px;
+}
+
+.taglinesection .img02 {
+    height: 220px;
+    width: 280px;
+    margin-left: 640px;
+}
+
+/* tag line section end */
+
+/* map section */
+.mapsection {
+    background-color: #C4B693;
+    height: 850px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapsection .para1 {
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+}
+
+.mapsection .para2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.mapsection .para2 .para3 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+    font-style: italic;
+    margin: 0px 35px;
+}
+
+.mapsection .para2 .para4 {
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+    margin: 0px 40px;
+}
+
+.mapsection img {
+    height: 458px;
+    width: 812px;
+    margin-top: 50px;
+}
+
+/* map section end */
+
+/* detail section 1 */
+.detailsec1 {
+    height: 700px;
+    width: 100%;
+    background-color: #C4B693;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+
+.detailsec1 img {
+    height: 550px;
+    width: 450px;
+}
+
+.detailsec1 .details {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.detailsec1 .para1 {
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+}
+
+.detailsec1 .para2 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+}
+
+.detailsec1 .para3 {
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+    width: 450px;
+}
+
+.detailsec1 .para4 {
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #3E2B24;
+    width: 445px;
+}
+
+/* detailsec 1 end */
+
+/* detailsec 2 */
+.detailsec2 {
+    height: 700px;
+    width: 100%;
+    background-color: #C4B693;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+
+.detailsec2 img {
+    height: 550px;
+    width: 450px;
+}
+
+.detailsec2 .details {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.detailsec2 .para1 {
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+}
+
+.detailsec2 .para2 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+}
+
+.detailsec2 .para3 {
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+    width: 450px;
+}
+
+.detailsec2 .para4 {
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #3E2B24;
+    width: 445px;
+}
+
+/* detailsec 2 end */
+
+/* amenties section */
+#amenities {
+    background-color: #F1ECEA;
+    color: #3E2B24;
+    /* padding: 5%; */
+}
+
+.a-title {
+    padding: 50px 200px;
+}
+
+.a-title h3 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 60%;
+}
+
+.amenities .carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0;
+    /* margin-bottom: 50px; */
+}
+
+.amenities .carousel {
+    display: flex;
+    animation: scroll-left 20s linear infinite;
+    align-items: flex-start;
+}
+
+.amenities .carousel-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.amenities .carousel img {
+    width: auto;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.amenities .carousel-caption {
+    padding: 10px 0;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carousel-wrapper:hover .carousel {
+    animation-play-state: paused;
+}
+
+/* Animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* amenities section end */
+
+/* exclusive section */
+.exclusivesec {
+    height: 350px;
+    width: 100%;
+    background-color: #C4B693;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.exclusivesec .para1 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3E2B24;
+}
+
+.exclusivesec .para2 {
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #3E2B24;
+    width: 574px;
+}
+
+.exclusivesec button {
+    height: 40px;
+    width: 120px;
+    background-color: #3E2B24;
+    color: #C4B693;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    border: 1px solid #3E2B24;
+}
+
+.exclusivesec button:hover {
+    background-color: #C4B693;
+    color: #3E2B24;
+    transition: 0.8s;
+}
+
+/* exclusive section end */
+
+/* last section */
+.lastsection {
+    width: 100%;
+    height: 1000px;
+    background-image: url(images/img15.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.lastsection .final {
+    background-color: #3E2B24;
+    width: 100%;
+    height: 616px;
+    color: #C4B693;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* top section */
+.lastsection .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.lastsection .top .para1 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lastsection .top .para2 {
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 450px;
+}
+
+/* middle section */
+.lastsection .middle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lastsection .middle .upper {
+    display: flex;
+    gap: 30px;
+}
+
+.lastsection .middle .left,
+.center,
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.lastsection .lower {
+    display: flex;
+    gap: 30px;
+}
+
+.lastsection .middle label {
+    height: 24px;
+    width: 150px;
+    font-size: 16px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.lastsection input,
+select {
+    width: 251px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: #C4B693;
+    border-bottom: 1px solid #C4B693;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+
+
+.lastsection select option {
+    color: #3E2B24;
+    font-size: 18px;
+}
+
+.lastsection .middle button {
+    height: 42px;
+    width: 820px;
+    background-color: #C4B693;
+    color: #3E2B24;
+    border: 1px solid #C4B693;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lastsection .middle button:hover {
+    background-color: #3E2B24;
+    color: #C4B693;
+    transition: 0.8s;
+}
+
+/* bottom section */
+.lastsection .bottom {
+    display: flex;
+    gap: 120px;
+}
+
+.lastsection .bottom .para1 {
+    text-decoration: underline;
+}
+
+
+/* Laptop size responsive 1024px width */
+@media screen and (max-width:1024px) {
+
+    /* Main section */
+    .mainsection {
+        height: 880px;
+        width: 100%;
+        background-image: url(images/img01.avif);
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    /* Navigation bar Start*/
+    .navbar {
+        background-color: #f1ecea;
+        display: flex;
+        height: 68px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .left1 {
+        display: none;
+    }
+
+    /* Left section in navbar */
+    .navbar .left ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar ul li {
+        display: inline;
+        list-style-type: none;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #3E2B24;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .navbar ul li a:hover {
+        text-decoration: underline;
+    }
+
+    /* center section in navbar */
+    .navbar .center span {
+        font-size: 20px;
+        color: #3E2B24;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /* right section in navbar */
+    .navbar .right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-direction: row;
+        display: none;
+    }
+
+    .navbar .Inquire {
+        display: none;
+    }
+
+    .navbar .Inquire:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        border: 1px solid #3E2B24;
+        transition: 0.7s;
+    }
+
+    /* navbar's icons */
+    .navbar i {
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+    }
+
+    /* Navigation bar end */
+
+    /* Main page */
+
+    /* massage section */
+    .mainpage .massage {
+        position: absolute;
+        left: 1420px;
+        top: 660px;
+        width: 64px;
+        height: 64px;
+        background-color: rgb(100, 89, 65);
+        color: rgb(241, 236, 234);
+        font-size: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    .mainpage .massage a {
+        text-decoration: none;
+        color: rgb(241, 236, 234);
+    }
+
+    .mainpage {
+        display: flex;
+        flex-direction: column;
+        height: 480px;
+        justify-content: center;
+        padding-left: 180px;
+        margin-top: 210px;
+    }
+
+    /* uppersection */
+    .mainpage .upper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mainpage .para1 {
+        color: #3E2B24;
+        font-size: 35px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-style: italic;
+    }
+
+    .mainpage .para2 {
+        color: #3E2B24;
+        font-size: 70px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 550;
+        font-style: normal;
+        letter-spacing: 10px;
+    }
+
+    /* lowersection */
+    .mainpage .lower {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 160px;
+    }
+
+    .mainpage .para3 {
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .mainpage .seevideo {
+        border: 1px solid #C4B693;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 133px;
+        height: 40px;
+        letter-spacing: 1px;
+    }
+
+    /* main section end */
+
+    /* infomation section */
+    .infosection {
+        height: 980px;
+        width: 100%;
+        background-color: #f1ecea;
+    }
+
+    /* upper section */
+    .infosection .upper {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .infosection .upper .para1 {
+        color: #3E2B24;
+        font-size: 20px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-right: 718px;
+    }
+
+    .infosection .upper .para2 {
+        font-size: 35px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 930px;
+        height: 350px;
+    }
+
+    /* lower section */
+    .infosection .lower {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 200px;
+    }
+
+    .infosection .infoimg01 {
+        height: 340px;
+        width: 240px;
+    }
+
+    .infosection .infoimg02 {
+        height: 201px;
+        width: 160px;
+    }
+
+    /* card section 01 */
+    .cardsection01 {
+        height: 1080px;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    /* top */
+    .cardsection01 .top {
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 200px;
+    }
+
+    .cardsection01 .top .para1 {
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .top .para2 {
+        color: #3E2B24;
+        font-size: 32px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 800px;
+        height: 111px;
+        padding-top: 20px;
+    }
+
+    /* middle */
+    .cardsection01 .middle {
+        display: flex;
+        gap: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardsection01 .middle img {
+        height: 480px;
+        width: 300px;
+    }
+
+    /* bottom */
+    .cardsection01 .bottom {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardsection01 .bottom .para1 {
+        color: #3E2B24;
+        font-size: 32px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para2 {
+        width: 269px;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 231px;
+        width: 216px;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection01 .card1button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection01 .card1button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .checkavai:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    .cardsection01 .card1button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 01 end */
+
+    /* card section 02 */
+    .cardsection02 {
+        height: 850px;
+        background-color: #645941;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection02 .top {
+        display: flex;
+        gap: 150px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 70px;
+    }
+
+    .cardsection02 .top img {
+        height: 480px;
+        width: 300px;
+    }
+
+    /* bottom section */
+    .cardsection02 .bottom {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .cardsection02 .bottom .para1 {
+        color: #F1ECEA;
+        font-size: 32px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para2 {
+        width: 269px;
+        color: #F1ECEA;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 231px;
+        width: 216px;
+        color: #F1ECEA;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection02 .card2button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection02 .card2button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .checkavai:hover {
+        background-color: #645941;
+        color: #F1ECEA;
+        transition: 0.8s;
+    }
+
+    .cardsection02 .card2button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 02 end */
+
+    /* card section 03 */
+    .cardsection03 {
+        height: 850px;
+        background-color: #3E2B24;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection03 .top {
+        display: flex;
+        gap: 150px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 70px;
+    }
+
+    .cardsection03 .top img {
+        height: 480px;
+        width: 300px;
+    }
+
+    /* bottom section */
+    .cardsection03 .bottom {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .cardsection03 .bottom .para1 {
+        color: #C4B693;
+        font-size: 32px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection03 .bottom .para2 {
+        width: 269px;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection03 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 231px;
+        width: 216px;
+        color: #C4B693;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection03 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection03 .card3button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection03 .card3button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .checkavai:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    .cardsection03 .card3button .viewfloor:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* card section 3 end */
+
+    /* tag line section */
+    .taglinesection {
+        height: 900px;
+        width: 100%;
+        background-color: #F1ECEA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        padding: 50px 150px;
+    }
+
+    .taglinesection .img01 {
+        height: 220px;
+        width: 180px;
+        margin-right: 580px;
+    }
+
+    .taglinesection .para1 {
+        font-size: 35px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 700px;
+        height: 171px;
+    }
+
+    .taglinesection .img02 {
+        height: 220px;
+        width: 280px;
+        margin-left: 580px;
+    }
+
+    /* tag line section end */
+
+    /* map section */
+    .mapsection {
+        background-color: #C4B693;
+        height: 850px;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mapsection .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .mapsection .para2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .mapsection .para2 .para3 {
+        font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        font-style: italic;
+        margin: 0px 35px;
+    }
+
+    .mapsection .para2 .para4 {
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        margin: 0px 40px;
+    }
+
+    .mapsection img {
+        height: 340px;
+        width: 612px;
+        margin-top: 50px;
+    }
+
+    /* map section end */
+
+    /* detail section 1 */
+    .detailsec1 {
+        height: 600px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    .detailsec1 img {
+        height: 380px;
+        width: 290px;
+    }
+
+    .detailsec1 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .detailsec1 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 200px;
+
+    }
+
+    .detailsec1 .para2 {
+        font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 300px;
+    }
+
+    .detailsec1 .para3 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    .detailsec1 .para4 {
+        font-size: 16px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    /* detailsec 1 end */
+
+    /* detailsec 2 */
+    .detailsec2 {
+        height: 600px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+
+    }
+
+    .detailsec2 img {
+        height: 380px;
+        width: 290px;
+    }
+
+    .detailsec2 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .detailsec2 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 200px;
+    }
+
+    .detailsec2 .para2 {
+        font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 300px;
+    }
+
+    .detailsec2 .para3 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    .detailsec2 .para4 {
+        font-size: 16px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    /* detailsec 2 end */
+
+    /* amenties section */
+    #amenities {
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        /* padding: 5%; */
+    }
+
+    .a-title {
+        padding: 50px 150px;
+    }
+
+    .a-title h3 {
+        margin-top: 20px;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 150%;
+        width: 80%;
+    }
+
+    .amenities .carousel-wrapper {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 50px 0;
+        /* margin-bottom: 50px; */
+    }
+
+    .amenities .carousel {
+        display: flex;
+        animation: scroll-left 20s linear infinite;
+        align-items: flex-start;
+    }
+
+    .amenities .carousel-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .amenities .carousel img {
+        width: auto;
+        height: 380px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    .amenities .carousel-caption {
+        padding: 10px 0;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .carousel-wrapper:hover .carousel {
+        animation-play-state: paused;
+    }
+
+    /* Animation */
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* amenities section end */
+
+    /* exclusive section */
+    .exclusivesec {
+        height: 300px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .exclusivesec .para1 {
+        font-size: 35px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .exclusivesec .para2 {
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 574px;
+    }
+
+    .exclusivesec button {
+        height: 40px;
+        width: 120px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 1.5px;
+        border: 1px solid #3E2B24;
+    }
+
+    .exclusivesec button:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* exclusive section end */
+
+    /* last section */
+    .lastsection {
+        width: 100%;
+        height: 1000px;
+        background-image: url(images/img15.avif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .lastsection .final {
+        background-color: #3E2B24;
+        width: 100%;
+        height: 616px;
+        color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* top section */
+    .lastsection .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .lastsection .top .para1 {
+        font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .lastsection .top .para2 {
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 450px;
+    }
+
+    /* middle section */
+    .lastsection .middle {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .lastsection .middle .upper {
+        display: flex;
+        gap: 30px;
+    }
+
+    .lastsection .middle .left,
+    .center,
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lastsection .lower {
+        display: flex;
+        gap: 30px;
+    }
+
+    .lastsection .middle label {
+        height: 24px;
+        width: 150px;
+        font-size: 16px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .lastsection input,
+    select {
+        width: 251px;
+        height: 40px;
+        outline: none;
+        border: none;
+        color: #C4B693;
+        border-bottom: 1px solid #C4B693;
+        background-color: transparent;
+        font-size: 20px;
+    }
+
+    .lastsection select option {
+        color: #3E2B24;
+        font-size: 18px;
+    }
+
+    .lastsection .middle button {
+        height: 42px;
+        width: 820px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        border: 1px solid #C4B693;
+        font-size: 20px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .lastsection .middle button:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* bottom section */
+    .lastsection .bottom {
+        display: flex;
+        gap: 120px;
+    }
+
+    .lastsection .bottom .para1 {
+        text-decoration: underline;
+    }
+}
+
+/* tablet size responsive 768px width */
+@media screen and (max-width:768px) {
+
+    /* Main section */
+    .mainsection {
+        height: 800px;
+        width: 100%;
+        background-image: url(images/img01.avif);
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    /* Navigation bar Start*/
+    .navbar {
+        background-color: #f1ecea;
+        display: flex;
+        height: 72px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 70px;
+    }
+
+    .left1 {
+        display: none;
+    }
+
+    /* Left section in navbar */
+    .navbar .left ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar ul li {
+        display: inline;
+        list-style-type: none;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #3E2B24;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .navbar ul li a:hover {
+        text-decoration: underline;
+    }
+
+    /* center section in navbar */
+    .navbar .center span {
+        font-size: 20px;
+        color: #3E2B24;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /* right section in navbar */
+    .navbar .right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-direction: row;
+        display: none;
+    }
+
+    .navbar .Inquire {
+        border: 1px solid #C4B693;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 120px;
+        height: 40px;
+        letter-spacing: 2px;
+    }
+
+    .navbar .Inquire:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        border: 1px solid #3E2B24;
+        transition: 0.7s;
+    }
+
+    /* navbar's icons */
+    .navbar i {
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+    }
+
+    /* Navigation bar end */
+
+    /* Main page */
+
+    /* massage section */
+    .mainpage .massage {
+        position: absolute;
+        left: 1420px;
+        top: 660px;
+        width: 64px;
+        height: 64px;
+        background-color: rgb(100, 89, 65);
+        color: rgb(241, 236, 234);
+        font-size: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    .mainpage .massage a {
+        text-decoration: none;
+        color: rgb(241, 236, 234);
+    }
+
+    .mainpage {
+        display: flex;
+        flex-direction: column;
+        height: 480px;
+        justify-content: center;
+        padding-left: 180px;
+        margin-top: 140px;
+    }
+
+    /* uppersection */
+    .mainpage .upper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mainpage .para1 {
+        color: #3E2B24;
+        font-size: 28px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-style: italic;
+    }
+
+    .mainpage .para2 {
+        color: #3E2B24;
+        font-size: 60px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 550;
+        font-style: normal;
+        letter-spacing: 10px;
+    }
+
+    /* lowersection */
+    .mainpage .lower {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 100px;
+    }
+
+    .mainpage .para3 {
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .mainpage .seevideo {
+        border: 1px solid #C4B693;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 113px;
+        height: 32px;
+        letter-spacing: 1px;
+    }
+
+    /* main section end */
+
+    /* infomation section */
+    .infosection {
+        height: 1100px;
+        width: 100%;
+        background-color: #f1ecea;
+    }
+
+    /* upper section */
+    .infosection .upper {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .infosection .upper .para1 {
+        color: #3E2B24;
+        font-size: 20px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-right: 420px;
+    }
+
+    .infosection .upper .para2 {
+        font-size: 28px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 630px;
+        height: 250px;
+    }
+
+    /* lower section */
+    .infosection .lower {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 260px;
+    }
+
+    .infosection .infoimg01 {
+        height: 320px;
+        width: 210px;
+    }
+
+    .infosection .infoimg02 {
+        height: 201px;
+        width: 189px;
+    }
+
+    /* card section 01 */
+    .cardsection01 {
+        height: 1240px;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    /* top */
+    .cardsection01 .top {
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 120px;
+    }
+
+    .cardsection01 .top .para1 {
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .top .para2 {
+        color: #3E2B24;
+        font-size: 30px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 576px;
+        height: 111px;
+        padding-top: 20px;
+    }
+
+    /* middle */
+    .cardsection01 .middle {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardsection01 .middle img {
+        height: 430px;
+        width: 290px;
+    }
+
+    /* bottom */
+    .cardsection01 .bottom {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardsection01 .bottom .para1 {
+        color: #3E2B24;
+        font-size: 30px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para2 {
+        width: 269px;
+        color: #3E2B24;
+        font-size: 13px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        height: 151px;
+        width: 216px;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cardsection01 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection01 .card1button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection01 .card1button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .checkavai:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    .cardsection01 .card1button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 01 end */
+
+    /* card section 02 */
+    .cardsection02 {
+        height: 980px;
+        background-color: #645941;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection02 .top {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 70px;
+    }
+
+    .cardsection02 .top img {
+        height: 430px;
+        width: 290px;
+    }
+
+    /* bottom section */
+    .cardsection02 .bottom {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardsection02 .bottom .para1 {
+        color: #F1ECEA;
+        font-size: 32px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para2 {
+        width: 269px;
+        color: #F1ECEA;
+        font-size: 13px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        height: 151px;
+        width: 216px;
+        color: #F1ECEA;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .cardsection02 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection02 .card2button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection02 .card2button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .checkavai:hover {
+        background-color: #645941;
+        color: #F1ECEA;
+        transition: 0.8s;
+    }
+
+    .cardsection02 .card2button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 02 end */
+
+    /* card section 03 */
+    .cardsection03 {
+        height: 980px;
+        background-color: #3E2B24;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection03 .top {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 70px;
+    }
+
+    .cardsection03 .top img {
+        height: 430px;
+        width: 290px;
+    }
+
+    /* bottom section */
+    .cardsection03 .bottom {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+
+    .cardsection03 .bottom .para1 {
+        color: #C4B693;
+        font-size: 31px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection03 .bottom .para2 {
+        width: 269px;
+        color: #C4B693;
+        font-size: 13px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .cardsection03 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 151px;
+        width: 216px;
+        color: #C4B693;
+        font-size: 15px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        gap: 10px;
+    }
+
+    .cardsection03 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection03 .card3button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection03 .card3button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .checkavai:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    .cardsection03 .card3button .viewfloor:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* card section 3 end */
+
+    /* tag line section */
+    .taglinesection {
+        height: 900px;
+        width: 100%;
+        background-color: #F1ECEA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .taglinesection .img01 {
+        height: 220px;
+        width: 180px;
+        margin-right: 400px;
+    }
+
+    .taglinesection .para1 {
+        font-size: 30px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 500px;
+        height: 171px;
+    }
+
+    .taglinesection .img02 {
+        height: 220px;
+        width: 280px;
+        margin-left: 400px;
+    }
+
+    /* tag line section end */
+
+    /* map section */
+    .mapsection {
+        background-color: #C4B693;
+        height: 650px;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mapsection .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .mapsection .para2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .mapsection .para2 .para3 {
+        font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        font-style: italic;
+        margin: 0px 35px;
+    }
+
+    .mapsection .para2 .para4 {
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        margin: 0px 40px;
+    }
+
+    .mapsection img {
+        height: 278px;
+        width: 512px;
+        margin-top: 50px;
+    }
+
+    /* map section end */
+
+    /* detail section 1 */
+    .detailsec1 {
+        height: 550px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .detailsec1 img {
+        height: 330px;
+        width: 250px;
+    }
+
+    .detailsec1 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .detailsec1 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec1 .para2 {
+        font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec1 .para3 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 400px;
+    }
+
+    .detailsec1 .para4 {
+        font-size: 16px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 390px;
+    }
+
+    /* detailsec 1 end */
+
+    /* detailsec 2 */
+    .detailsec2 {
+        height: 550px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .detailsec2 img {
+        height: 330px;
+        width: 250px;
+    }
+
+    .detailsec2 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .detailsec2 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec2 .para2 {
+        font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec2 .para3 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    .detailsec2 .para4 {
+        font-size: 16px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    /* detailsec 2 end */
+
+    /* amenties section */
+    #amenities {
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        /* padding: 5%; */
+    }
+
+    .a-title {
+        padding: 50px 140px;
+    }
+
+    .a-title h3 {
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 150%;
+        width: 500px
+    }
+
+    .amenities .carousel-wrapper {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 50px 0;
+        /* margin-bottom: 50px; */
+    }
+
+    .amenities .carousel {
+        display: flex;
+        animation: scroll-left 20s linear infinite;
+        align-items: flex-start;
+    }
+
+    .amenities .carousel-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .amenities .carousel img {
+        width: auto;
+        height: 400px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    .amenities .carousel-caption {
+        padding: 10px 0;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .carousel-wrapper:hover .carousel {
+        animation-play-state: paused;
+    }
+
+    /* Animation */
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* amenities section end */
+
+    /* exclusive section */
+    .exclusivesec {
+        height: 350px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .exclusivesec .para1 {
+        font-size: 31px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .exclusivesec .para2 {
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 574px;
+    }
+
+    .exclusivesec button {
+        height: 35px;
+        width: 120px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 1.5px;
+        border: 1px solid #3E2B24;
+    }
+
+    .exclusivesec button:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* exclusive section end */
+
+    /* last section */
+    .lastsection {
+        width: 100%;
+        height: 1000px;
+        background-image: url(images/img15.avif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .lastsection .final {
+        background-color: #3E2B24;
+        width: 100%;
+        height: 736px;
+        color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* top section */
+    .lastsection .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .lastsection .top .para1 {
+        font-size: 31px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .lastsection .top .para2 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 450px;
+    }
+
+    /* middle section */
+    .lastsection .middle {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .lastsection .middle .upper {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .lastsection .middle .left,
+    .center,
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lastsection .lower {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .lastsection .middle label {
+        height: 24px;
+        width: 150px;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        margin-top: 10px;
+    }
+
+    .lastsection input,
+    select {
+        width: 201px;
+        height: 25px;
+        outline: none;
+        border: none;
+        color: #C4B693;
+        border-bottom: 1px solid #C4B693;
+        background-color: transparent;
+        font-size: 20px;
+    }
+
+    .lastsection select option {
+        color: #3E2B24;
+        font-size: 18px;
+    }
+
+    .lastsection .middle button {
+        height: 30px;
+        width: 520px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        border: 1px solid #C4B693;
+        font-size: 20px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .lastsection .middle button:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* bottom section */
+    .lastsection .bottom {
+        display: flex;
+        gap: 60px;
+    }
+
+    .lastsection .bottom .para1 {
+        text-decoration: underline;
+        font-size: 14px;
+    }
+
+    .lastsection .bottom .para2 {
+        font-size: 14px;
+    }
+}
+
+/* phone size responsive 480px */
+@media screen and (max-width:480px) {
+
+    /* Main section */
+    .mainsection {
+        height: 500px;
+        width: 100%;
+        background-image: url(images/img01.avif);
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    /* Navigation bar Start*/
+    .navbar {
+        background-color: #f1ecea;
+        height: 62px;
+        width: 100%;
+        align-items: center;
+        /* justify-content: space-between; */
+        padding: 0px 50px;
+    }
+
+    /* Left section in navbar */
+    .navbar .left {
+        display: flex;
+        gap: 20px;
+        display: none;
+    }
+
+    .left1 {
+        display: block;
+    }
+
+    /* center section in navbar */
+    .navbar .center span {
+        font-size: 20px;
+        color: #3E2B24;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /* right section in navbar */
+    .navbar .right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-direction: row;
+        display: none;
+    }
+
+    /* Navigation bar end */
+
+    /* Main page */
+
+    /* massage section */
+    .mainpage .massage {
+        position: absolute;
+        left: 1420px;
+        top: 660px;
+        width: 64px;
+        height: 64px;
+        background-color: rgb(100, 89, 65);
+        color: rgb(241, 236, 234);
+        font-size: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    .mainpage .massage a {
+        text-decoration: none;
+        color: rgb(241, 236, 234);
+    }
+
+    .mainpage {
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+        justify-content: center;
+        padding-left: 80px;
+        margin-top: 80px;
+    }
+
+    /* uppersection */
+    .mainpage .upper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mainpage .para1 {
+        color: #3E2B24;
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-style: italic;
+    }
+
+    .mainpage .para2 {
+        color: #3E2B24;
+        font-size: 30px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 550;
+        font-style: normal;
+        letter-spacing: 10px;
+    }
+
+    /* lowersection */
+    .mainpage .lower {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .mainpage .para3 {
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .mainpage .seevideo {
+        border: 1px solid #C4B693;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 13px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 93px;
+        height: 28px;
+        letter-spacing: 1px;
+    }
+
+    /* main section end */
+
+    /* infomation section */
+    .infosection {
+        height: 700px;
+        width: 100%;
+        background-color: #f1ecea;
+    }
+
+    /* upper section */
+    .infosection .upper {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .infosection .upper .para1 {
+        color: #3E2B24;
+        font-size: 12px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-right: 290px;
+    }
+
+    .infosection .upper .para2 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 410px;
+        height: 150px;
+    }
+
+    /* lower section */
+    .infosection .lower {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .infosection .infoimg01 {
+        height: 190px;
+        width: 145px;
+    }
+
+    .infosection .infoimg02 {
+        height: 145px;
+        width: 119px;
+    }
+
+    /* card section 01 */
+    .cardsection01 {
+        height: 1100px;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* top */
+    .cardsection01 .top {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    .cardsection01 .top .para1 {
+        color: #3E2B24;
+        font-size: 12px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .top .para2 {
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 376px;
+        height: 91px;
+        padding-top: 20px;
+    }
+
+    /* middle */
+    .cardsection01 .middle {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cardsection01 .middle img {
+        height: 250px;
+        width: 170px;
+    }
+
+    /* bottom */
+    .cardsection01 .bottom {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardsection01 .bottom .para1 {
+        color: #3E2B24;
+        font-size: 30px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para2 {
+        width: 269px;
+        color: #3E2B24;
+        font-size: 13px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        height: 151px;
+        width: 216px;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cardsection01 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection01 .card1button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection01 .card1button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .checkavai:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    .cardsection01 .card1button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 01 end */
+
+    /* card section 02 */
+    .cardsection02 {
+        height: 1000px;
+        background-color: #645941;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection02 .top {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .cardsection02 .top img {
+        height: 250px;
+        width: 170px;
+    }
+
+    /* bottom section */
+    .cardsection02 .bottom {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardsection02 .bottom .para1 {
+        color: #F1ECEA;
+        font-size: 28px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para2 {
+        width: 269px;
+        color: #F1ECEA;
+        font-size: 11px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        height: 151px;
+        width: 216px;
+        color: #F1ECEA;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        align-items: center;
+        gap: 1px;
+    }
+
+    .cardsection02 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection02 .card2button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection02 .card2button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .checkavai:hover {
+        background-color: #645941;
+        color: #F1ECEA;
+        transition: 0.8s;
+    }
+
+    .cardsection02 .card2button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 02 end */
+
+    /* card section 03 */
+    .cardsection03 {
+        height: 1000px;
+        background-color: #3E2B24;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection03 .top {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .cardsection03 .top img {
+        height: 250px;
+        width: 170px;
+    }
+
+    /* bottom section */
+    .cardsection03 .bottom {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+
+    .cardsection03 .bottom .para1 {
+        color: #C4B693;
+        font-size: 31px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection03 .bottom .para2 {
+        width: 269px;
+        color: #C4B693;
+        font-size: 13px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .cardsection03 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 151px;
+        width: 216px;
+        color: #C4B693;
+        font-size: 15px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        gap: 1px;
+    }
+
+    .cardsection03 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection03 .card3button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection03 .card3button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .checkavai:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    .cardsection03 .card3button .viewfloor:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* card section 3 end */
+
+    /* tag line section */
+    .taglinesection {
+        height: 620px;
+        width: 100%;
+        background-color: #F1ECEA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .taglinesection .img01 {
+        height: 185px;
+        width: 130px;
+        margin-right: 0px;
+    }
+
+    .taglinesection .para1 {
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 300px;
+        height: 80px;
+    }
+
+    .taglinesection .img02 {
+        height: 185px;
+        width: 200px;
+        margin-left: 0px;
+    }
+
+    /* tag line section end */
+
+    /* map section */
+    .mapsection {
+        background-color: #C4B693;
+        height: 450px;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mapsection .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .mapsection .para2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 0px 29px;
+    }
+
+    .mapsection .para2 .para3 {
+        font-size: 22px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        font-style: italic;
+        margin: 0px 0px;
+    }
+
+    .mapsection .para2 .para4 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        margin: 0px 0px;
+    }
+
+    .mapsection img {
+        height: 218px;
+        width: 312px;
+        margin-top: 50px;
+    }
+
+    /* map section end */
+
+    /* detail section 1 */
+    .detailsec1 {
+        height: 550px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .detailsec1 img {
+        height: 230px;
+        width: 180px;
+    }
+
+    .detailsec1 svg {
+        height: 50px;
+        width: 100px;
+    }
+
+    .detailsec1 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .detailsec1 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec1 .para2 {
+        font-size: 28px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec1 .para3 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 400px;
+    }
+
+    .detailsec1 .para4 {
+        font-size: 12px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 390px;
+    }
+
+    /* detailsec 1 end */
+
+    /* detailsec 2 */
+    .detailsec2 {
+        height: 550px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .detailsec2 img {
+        height: 230px;
+        width: 180px;
+    }
+
+    .detailsec2 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .detailsec2 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec2 .para2 {
+        font-size: 32px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec2 .para3 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    .detailsec2 .para4 {
+        font-size: 12px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 380px;
+    }
+
+    /* detailsec 2 end */
+
+    /* amenties section */
+    #amenities {
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        /* padding: 5%; */
+    }
+
+    .a-title {
+        padding: 50px 80px;
+    }
+
+    .a-title h3 {
+        margin-top: 20px;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 150%;
+        width: 300px
+    }
+
+    .amenities .carousel-wrapper {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 50px 0;
+        /* margin-bottom: 50px; */
+    }
+
+    .amenities .carousel {
+        display: flex;
+        animation: scroll-left 20s linear infinite;
+        align-items: flex-start;
+    }
+
+    .amenities .carousel-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .amenities .carousel img {
+        width: auto;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    .amenities .carousel-caption {
+        padding: 10px 0;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .carousel-wrapper:hover .carousel {
+        animation-play-state: paused;
+    }
+
+    /* Animation */
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* amenities section end */
+
+    /* exclusive section */
+    .exclusivesec {
+        height: 220px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .exclusivesec .para1 {
+        font-size: 22px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .exclusivesec .para2 {
+        font-size: 12px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 374px;
+    }
+
+    .exclusivesec button {
+        height: 30px;
+        width: 90px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 1.5px;
+        border: 1px solid #3E2B24;
+    }
+
+    .exclusivesec button:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* exclusive section end */
+
+    /* last section */
+    .lastsection {
+        width: 100%;
+        height: 1000px;
+        background-image: url(images/img15.avif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .lastsection .final {
+        background-color: #3E2B24;
+        width: 100%;
+        height: 736px;
+        color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* top section */
+    .lastsection .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .lastsection .top .para1 {
+        font-size: 31px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .lastsection .top .para2 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 350px;
+    }
+
+    /* middle section */
+    .lastsection .middle {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .lastsection .middle .upper {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .lastsection .middle .left,
+    .center,
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lastsection .lower {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .lastsection .middle label {
+        height: 24px;
+        width: 150px;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        margin-top: 10px;
+    }
+
+    .lastsection input,
+    select {
+        width: 201px;
+        height: 15px;
+        outline: none;
+        border: none;
+        color: #C4B693;
+        border-bottom: 1px solid #C4B693;
+        background-color: transparent;
+        font-size: 20px;
+    }
+
+    .lastsection select option {
+        color: #3E2B24;
+        font-size: 18px;
+    }
+
+    .lastsection .middle button {
+        height: 30px;
+        width: 320px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        border: 1px solid #C4B693;
+        font-size: 20px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .lastsection .middle button:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* bottom section */
+    .lastsection .bottom {
+        display: flex;
+        gap: 15px;
+    }
+
+    .lastsection .bottom .para1 {
+        text-decoration: underline;
+        font-size: 12px;
+    }
+
+    .lastsection .bottom .para2 {
+        font-size: 12px;
+    }
+}
+
+/*  phone size responsive 320px */
+@media screen and (max-width:320px) {
+
+    /* Main section */
+    .mainsection {
+        height: 400px;
+        width: 100%;
+        background-image: url(images/img01.avif);
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    /* Navigation bar Start*/
+    .navbar {
+        background-color: #f1ecea;
+        height: 62px;
+        width: 100%;
+        align-items: center;
+        /* justify-content: space-between; */
+        padding: 0px 25px;
+    }
+
+    /* Left section in navbar */
+    .navbar .left {
+        display: flex;
+        gap: 20px;
+        display: none;
+    }
+
+    .left1 {
+        display: block;
+    }
+
+    /* center section in navbar */
+    .navbar .center span {
+        font-size: 20px;
+        color: #3E2B24;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /* right section in navbar */
+    .navbar .right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-direction: row;
+        display: none;
+    }
+
+    /* Navigation bar end */
+
+    /* Main page */
+
+    /* massage section */
+    .mainpage .massage {
+        position: absolute;
+        left: 1420px;
+        top: 660px;
+        width: 64px;
+        height: 64px;
+        background-color: rgb(100, 89, 65);
+        color: rgb(241, 236, 234);
+        font-size: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    .mainpage .massage a {
+        text-decoration: none;
+        color: rgb(241, 236, 234);
+    }
+
+    .mainpage {
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+        justify-content: center;
+        padding-left: 40px;
+        margin-top: 40px;
+    }
+
+    /* uppersection */
+    .mainpage .upper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mainpage .para1 {
+        color: #3E2B24;
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-style: italic;
+    }
+
+    .mainpage .para2 {
+        color: #3E2B24;
+        font-size: 30px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 550;
+        font-style: normal;
+        letter-spacing: 10px;
+    }
+
+    /* lowersection */
+    .mainpage .lower {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .mainpage .para3 {
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        width: 220px;
+    }
+
+    .mainpage .seevideo {
+        border: 1px solid #C4B693;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 13px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 93px;
+        height: 28px;
+        letter-spacing: 1px;
+    }
+
+    /* main section end */
+
+    /* infomation section */
+    .infosection {
+        height: 700px;
+        width: 100%;
+        background-color: #f1ecea;
+    }
+
+    /* upper section */
+    .infosection .upper {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .infosection .upper .para1 {
+        color: #3E2B24;
+        font-size: 12px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-right: 140px;
+    }
+
+    .infosection .upper .para2 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 260px;
+        height: 150px;
+    }
+
+    /* lower section */
+    .infosection .lower {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .infosection .infoimg01 {
+        height: 190px;
+        width: 145px;
+    }
+
+    .infosection .infoimg02 {
+        height: 145px;
+        width: 119px;
+    }
+
+    /* card section 01 */
+    .cardsection01 {
+        height: 1100px;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* top */
+    .cardsection01 .top {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    .cardsection01 .top .para1 {
+        color: #3E2B24;
+        font-size: 12px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .top .para2 {
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 250px;
+        height: 91px;
+        padding-top: 20px;
+    }
+
+    /* middle */
+    .cardsection01 .middle {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cardsection01 .middle img {
+        height: 250px;
+        width: 170px;
+    }
+
+    /* bottom */
+    .cardsection01 .bottom {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardsection01 .bottom .para1 {
+        color: #3E2B24;
+        font-size: 24px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para2 {
+        width: 249px;
+        color: #3E2B24;
+        font-size: 11px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection01 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        height: 151px;
+        width: 216px;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .cardsection01 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection01 .card1button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection01 .card1button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection01 .card1button .checkavai:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    .cardsection01 .card1button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 01 end */
+
+    /* card section 02 */
+    .cardsection02 {
+        height: 1000px;
+        background-color: #645941;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection02 .top {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .cardsection02 .top img {
+        height: 250px;
+        width: 170px;
+    }
+
+    /* bottom section */
+    .cardsection02 .bottom {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardsection02 .bottom .para1 {
+        color: #F1ECEA;
+        font-size: 28px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para2 {
+        width: 269px;
+        color: #F1ECEA;
+        font-size: 11px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .cardsection02 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        height: 151px;
+        width: 216px;
+        color: #F1ECEA;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        align-items: center;
+        gap: 1px;
+    }
+
+    .cardsection02 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection02 .card2button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection02 .card2button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #3E2B24;
+    }
+
+    .cardsection02 .card2button .checkavai:hover {
+        background-color: #645941;
+        color: #F1ECEA;
+        transition: 0.8s;
+    }
+
+    .cardsection02 .card2button .viewfloor:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* card section 02 end */
+
+    /* card section 03 */
+    .cardsection03 {
+        height: 1000px;
+        background-color: #3E2B24;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* top section */
+    .cardsection03 .top {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .cardsection03 .top img {
+        height: 250px;
+        width: 170px;
+    }
+
+    /* bottom section */
+    .cardsection03 .bottom {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+
+    .cardsection03 .bottom .para1 {
+        color: #C4B693;
+        font-size: 31px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .cardsection03 .bottom .para2 {
+        width: 269px;
+        color: #C4B693;
+        font-size: 13px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .cardsection03 .bottom .para3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 151px;
+        width: 216px;
+        color: #C4B693;
+        font-size: 15px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        gap: 1px;
+    }
+
+    .cardsection03 .bottom .para3 i {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+
+    .cardsection03 .card3button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsection03 .card3button .checkavai {
+        width: 136px;
+        height: 30px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .viewfloor {
+        width: 136px;
+        height: 30px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        border: 1px solid #C4B693;
+    }
+
+    .cardsection03 .card3button .checkavai:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    .cardsection03 .card3button .viewfloor:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* card section 3 end */
+
+    /* tag line section */
+    .taglinesection {
+        height: 620px;
+        width: 100%;
+        background-color: #F1ECEA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .taglinesection .img01 {
+        height: 185px;
+        width: 130px;
+        margin-right: 0px;
+    }
+
+    .taglinesection .para1 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 270px;
+        height: 80px;
+    }
+
+    .taglinesection .img02 {
+        height: 185px;
+        width: 200px;
+        margin-left: 0px;
+    }
+
+    /* tag line section end */
+
+    /* map section */
+    .mapsection {
+        background-color: #C4B693;
+        height: 450px;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mapsection .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .mapsection .para2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0px 29px;
+    }
+
+    .mapsection .para2 .para3 {
+        font-size: 18px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        font-style: italic;
+        margin: 0px 0px;
+    }
+
+    .mapsection .para2 .para4 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        margin: 0px 0px;
+    }
+
+    .mapsection img {
+        height: 180px;
+        width: 252px;
+        margin-top: 50px;
+    }
+
+    /* map section end */
+
+    /* detail section 1 */
+    .detailsec1 {
+        height: 550px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .detailsec1 img {
+        height: 230px;
+        width: 180px;
+    }
+
+    .detailsec1 svg {
+        height: 50px;
+        width: 100px;
+    }
+
+    .detailsec1 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .detailsec1 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec1 .para2 {
+        font-size: 22px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec1 .para3 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 250px;
+    }
+
+    .detailsec1 .para4 {
+        font-size: 12px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 300px;
+    }
+
+    /* detailsec 1 end */
+
+    /* detailsec 2 */
+    .detailsec2 {
+        height: 550px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .detailsec2 img {
+        height: 230px;
+        width: 180px;
+    }
+
+    .detailsec2 .details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .detailsec2 .para1 {
+        font-size: 16px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec2 .para2 {
+        font-size: 28px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .detailsec2 .para3 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+        width: 300px;
+    }
+
+    .detailsec2 .para4 {
+        font-size: 12px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 300px;
+    }
+
+    /* detailsec 2 end */
+
+    /* amenties section */
+    #amenities {
+        background-color: #F1ECEA;
+        color: #3E2B24;
+        /* padding: 5%; */
+    }
+
+    .a-title {
+        padding: 50px 80px;
+    }
+
+    .a-title h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 150%;
+        width: 210px
+    }
+
+    .amenities .carousel-wrapper {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 50px 0;
+        /* margin-bottom: 50px; */
+    }
+
+    .amenities .carousel {
+        display: flex;
+        animation: scroll-left 20s linear infinite;
+        align-items: flex-start;
+    }
+
+    .amenities .carousel-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .amenities .carousel img {
+        width: auto;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    .amenities .carousel-caption {
+        padding: 10px 0;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .carousel-wrapper:hover .carousel {
+        animation-play-state: paused;
+    }
+
+    /* Animation */
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* amenities section end */
+
+    /* exclusive section */
+    .exclusivesec {
+        height: 220px;
+        width: 100%;
+        background-color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .exclusivesec .para1 {
+        font-size: 22px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #3E2B24;
+    }
+
+    .exclusivesec .para2 {
+        font-size: 12px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        color: #3E2B24;
+        width: 304px;
+    }
+
+    .exclusivesec button {
+        height: 30px;
+        width: 90px;
+        background-color: #3E2B24;
+        color: #C4B693;
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 1.5px;
+        border: 1px solid #3E2B24;
+    }
+
+    .exclusivesec button:hover {
+        background-color: #C4B693;
+        color: #3E2B24;
+        transition: 0.8s;
+    }
+
+    /* exclusive section end */
+
+    /* last section */
+    .lastsection {
+        width: 100%;
+        height: 1000px;
+        background-image: url(images/img15.avif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .lastsection .final {
+        background-color: #3E2B24;
+        width: 100%;
+        height: 736px;
+        color: #C4B693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* top section */
+    .lastsection .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .lastsection .top .para1 {
+        font-size: 31px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .lastsection .top .para2 {
+        font-size: 14px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 300;
+        font-style: normal;
+        width: 290px;
+    }
+
+    /* middle section */
+    .lastsection .middle {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .lastsection .middle .upper {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .lastsection .middle .left,
+    .center,
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lastsection .lower {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .lastsection .middle label {
+        height: 20px;
+        width: 150px;
+        font-size: 12px;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        margin-top: 10px;
+    }
+
+    .lastsection input,
+    select {
+        width: 201px;
+        height: 15px;
+        outline: none;
+        border: none;
+        color: #C4B693;
+        border-bottom: 1px solid #C4B693;
+        background-color: transparent;
+        font-size: 20px;
+    }
+
+    .lastsection select option {
+        color: #3E2B24;
+        font-size: 18px;
+    }
+
+    .lastsection .middle button {
+        height: 20px;
+        width: 250px;
+        background-color: #C4B693;
+        color: #3E2B24;
+        border: 1px solid #C4B693;
+        font-size: 15px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .lastsection .middle button:hover {
+        background-color: #3E2B24;
+        color: #C4B693;
+        transition: 0.8s;
+    }
+
+    /* bottom section */
+    .lastsection .bottom {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lastsection .bottom .para1 {
+        text-decoration: underline;
+        font-size: 12px;
+    }
+
+    .lastsection .bottom .para2 {
+        font-size: 10px;
+        width: 200px;
+    }
+}
